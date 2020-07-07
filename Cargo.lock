@@ -3,7 +3,7 @@
 [[package]]
 name = "hasard"
 version = "0.1.0"
-source = "git+https://github.com/sameo/hasard#da2133026f79dd0db4cf0beec589a2f5307dc355"
+source = "git+https://github.com/sameo/hasard#84807dc59c2160b05aef7c80ac2e435dc51523fc"
 
 [[package]]
 name = "loterie"

@@ -1,0 +1,9 @@
+name: Repository Dispatch
+on:
+  repository_dispatch:
+    types: [hasard-pull-request]
+jobs:
+  DispatchEvent:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo ${{ github.event.action }} ${{ github.event.client_payload.sha }} ${{ github.event.client_payload.ref }}
